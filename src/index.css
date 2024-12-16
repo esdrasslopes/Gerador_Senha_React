@@ -1,0 +1,22 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #333;
+}
+
+html,
+body {
+  height: auto;
+  min-height: 100vh;
+}
+
+html {
+  background: linear-gradient(180deg, #ea02ff 0%, #0097ff 100%);
+}
+
+
+input:focus {
+  outline: none;
+}

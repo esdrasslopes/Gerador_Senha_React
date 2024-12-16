@@ -1,0 +1,27 @@
+#register-banner {
+  background-image: url(../assets/bg-form.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+}
+
+#banner-layer {
+  background-color: rgba(25, 11, 122, 0.7);
+  height: 100%;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+#register-banner h1 {
+  font-size: 4rem;
+  color: #fff;
+  margin-bottom: 1.5rem;
+  word-spacing: 50rem;
+}
+
+@media (max-width: 768px) {
+  #register-banner {
+    display: none;
+  }
+}
